@@ -1,2 +1,4 @@
 # RouletteDemo
-Example Roulette System for RAGEMP.PRO
+Example for RAGEMP.PRO
+
+Live view: https://tellarion.dev/roulette

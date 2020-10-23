@@ -1,0 +1,73 @@
+/* tellarion.css */
+
+body {
+    background: #222226;
+    color: #b7b7b7;
+    font-family: "Arial" sans-serif;
+}
+
+body main {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vh;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+
+body main .container .bar {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    padding: 25px;
+    margin: auto;
+    background: #969696;
+    border-radius: 10px;
+}
+
+body main .container .bar .spin {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    background: #7d7d7d;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+body main .container .bar .spin::before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    height: 150px;
+    width: 3px;
+    background: red;
+}
+
+body main .container .bar .spin .move {
+    display: flex;
+    flex-direction: row;
+    min-height: 150px;
+}
+
+body main .container .bar .spin .move .item {
+    display: flex;
+}
+
+body main .container .bar button {
+    position: absolute;
+    font-family: "Arial";
+    font-weight: 100;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #222226;
+    border: none;
+    border-radius: 20px 20px 0px 0px;
+    padding: 10px 25px 10px 25px;
+    bottom: 0;
+    outline: none;
+}
